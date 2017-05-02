@@ -1,0 +1,159 @@
+
+
+header{
+background: url("../imagenes/header.jpg") white;
+height:500px; 
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+nav{
+	width: 100%;
+	border: 2px solid rgba(0,0,0,0.1);
+	background: rgba(255, 255, 255, 0.4);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu{
+	list-style: none;
+	display: flex;
+	width: 400px;
+	justify-content: space-around;
+}
+
+
+.menu li a {
+	text-decoration: none;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#052F5F;
+	font-size: 18px;
+	
+}
+
+nav img {
+	margin: 8px 60px;
+}
+
+.contenedor {
+	max-width: 900px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contenedor img {
+	max-width: 100%;
+}
+
+footer {
+	padding-top: 20px;
+	background:#08090A;	
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
+	margin: 0 40px;
+	color: #20A39E;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-size: 100px;
+	color:#052F5F;
+	text-shadow: 3px 3px 7px rgba(255, 255, 255, 1);
+
+}
+
+h2 {font-family: 'Nunito', sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color:#08090A;
+	text-shadow: 3px 3px 7px rgba(255, 255, 255, 1);
+}
+
+article h2{
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFBA49;
+	text-align: center;
+
+}
+
+form {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+footer .contenedor {
+	justify-content: space-around;
+	align-items: baseline;	
+	color: #20A39E;
+	font-family: 'Nunito', sans-serif;
+	max-width: 100%;
+}
+
+footer h6{ 
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFBA49;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+ }
+
+ footer .contenedor a {
+ 	text-decoration: none;
+ 	color: #20A39E;
+ }
+
+ footer .contenedor div {
+ 	text-align: center;
+ 	font-size: 18px;
+ 	text-transform: uppercase;
+ }
+
+.icono {
+	color: #FFBA49;
+	font-size: 25px;
+	margin: 10px 10px;
+}
+
+.redes {
+	display: flex;
+}
+
+input[type=text], input[type=email], textarea, input[type=submit]{
+    background-color: #FFBA49;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    border: none;
+
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+	background-color: #3CBC8D;
+
+}
+
+input[type=submit] {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+}
